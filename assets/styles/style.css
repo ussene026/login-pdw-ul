@@ -1,0 +1,102 @@
+/*- RESET STYLES --------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+body {
+    background: #DBDBDB;
+    overflow: hidden;
+}
+a {
+    color: #068ACE;
+    text-decoration: none;
+}
+a:hover {text-decoration: underline;}
+/*------------------------*/
+.container {
+    max-width: 400px;
+    padding: 0 20px;
+    margin: 100px auto;
+}
+.logo {
+    color: #784310;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.logo img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+.content {
+    width: 100%;
+    padding: 30px 20px;
+    background: #fff;
+    border-radius: 10px 10px 30px 30px;
+    box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
+}
+
+.content form .row {
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.content form .row input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+form .row input:focus{
+    border-color: #068ACE;
+    box-shadow: inset 0px 0px 2px 2px #068bce1f;
+}
+form .row input::placeholder{
+    color: #999;
+}
+.content form .row i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: #fff;
+    font-size: 18px;
+    background: #068ACE;
+    border: 1px solid #068ACE;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content form .pass{
+    margin: -8px 0 20px 0;
+}
+.content form .pass a{
+    color: #068ACE;
+    font-size: 17px;
+    text-decoration: none;
+}
+.content form .button input{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 0px;
+    background: #068ACE;
+    border: 1px solid #068ACE;
+    cursor: pointer;
+}
+form .button input:hover{
+    background: #2ca0ca;
+    transition: all 0.5s;
+    transform: scale(0.97);
+    border-radius: 0;
+}
+.content form .reset-pass{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+}
